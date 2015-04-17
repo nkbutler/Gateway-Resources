@@ -1,0 +1,13 @@
+{
+  "name": "gateway-resources",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.12.2",
+    "jade": "~1.9.2",
+	"debug": "~2.1.3"
+  }
+}
