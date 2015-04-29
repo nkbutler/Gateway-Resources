@@ -9,7 +9,7 @@ app.set('view engine', 'jade');
 app.use('/',
     function(req, res, next) {
 	  res.ctx = {};
-      res.render('usertemp', res.ctx);
+      res.render('usertemplate', res.ctx);
     }
   );
 app.use('/static', express.static('static'));
