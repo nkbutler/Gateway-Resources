@@ -10,10 +10,10 @@
   <meta name="author" content=""/>    
   <link rel="icon" href="../../favicon.ico"/>   
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	
+	<script type="text/JavaScript" src="abc.js"></script> 
 </head>
 
-<body style="background-color:lightgray">
+<body style="background-color:slategray">
 <div class="container">
       <div class="navbar-header">
 	  <div class="well"
@@ -28,36 +28,46 @@
 <div class="col-sm-2 col-md-1 sidebar">
       <ul class="nav nav-sidebar">
         <h4 class="text-center">Menu</h4>
-        <li class="active"><a href="#">Home<span class="sr-only"></span></a></li>            
-        <li><a href="#">Project</a></li>            
-        <li><a href="#">Group</a></li>            
-        <li><a href="#">Meeting</a></li>
+        <li class="active"><a href="#" style="color:gold">Home<span class="sr-only"></span></a></li>            
+        <li><a href="#" style="color:gold">Project</a></li>            
+        <li><a href="#" class="text-muted" style="color:black">Group</a></li>            
+        <li><a href="#" style="color:gold">Meeting</a></li>
       </ul><br></br>
 	  <a class="btn btn-default" href='#' role='button'>Log Off</a>
 	 </div>
 	 <div class="col-md-1"></div>
 	 <div class="col-md-3">
 	 <h3>Group Goals</h3>
-	 <textarea class="form-control" rows="9"></textarea>
-	 <button type="button" class="btn btn-default">Send</button>
+	 <textarea class="form-control" rows="9">Finish home page
+ Make the database work
+complete connect everything together</textarea>
+	 <button type="button" class="btn btn-default">Save</button>
 	 </div>
 	 <div class="col-md-1"></div>
-	 <div class="col-md-5">
-	 <h3>forum</h3>
-	 <form action="/html/tags/html_form_tag_action.cfm" method="post">
-<br />
-<textarea name="comments" id="comments" rows="4">
-</textarea><br />
-<input type="submit" value="Submit" />
-</form>
+	 <div class="col-md-3">
+	 <h3>Accomplishments</h3>
+	<textarea class="form-control" rows="9">Finshed the home page
+	-Danit
+Database works
+	-Eric
+Project views done
+	-Nick
+Finshed the user page
+	-Abel</textarea>
+	 <button type="button" class="btn btn-default">Save</button>
 	 </div>
 	 </div>
 	 <div class="row">
 	 <div class="col-md-2"></div>
-	 <div class="col-md-3">
-	 <h2>Accomplishments</h2>
-	 <textarea class="form-control" rows="3"></textarea>
-	 <button type="button" class="btn btn-default">Save</button>
+	 <div class="col-md-4">
+	 <h2>forums</h2>
+	  <form action="/html/tags/html_form_tag_action.cfm" method="post">
+<br />
+<textarea class="form-control" rows="3">I was not able to get the submit button to interact with the server. can anyone help me?
+</textarea><br />
+<input type="submit" value="Submit" />
+</form>
+	 
 	 </div>
 	 </div>
 	 </div><!--container-->

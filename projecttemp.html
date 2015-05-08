@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="utf-8"/> 
-  <title>Home</title>  
+  <title>Project</title>  
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>    
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags-->
@@ -10,14 +10,14 @@
   <meta name="author" content=""/>    
   <link rel="icon" href="../../favicon.ico"/>   
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	
+	<script type="text/JavaScript" src="abc.js"></script> 
 </head>
 
-<body style="background-color:lavender">
+<body style="background-color:slategray">
 <div class="container">
 <div class="navbar-header">
         <div class="well">
-		<h4 class="text-muted">Home</h4></div>
+		<h4 class="text-muted">Project</h4></div>
 		</div>
 		</div>
 	  <center><h1 style="text-shadow:4px 4px 10px black">PROJECT GATEWAY</h1></center>
@@ -31,10 +31,10 @@
 <div class="col-sm-2 col-md-1 sidebar">
       <ul class="nav nav-sidebar">
 		<h4 class="text-center">Menu</h4>
-        <li class="active"><a href="#">Home<span class="sr-only"></span></a></li>            
-        <li><a href="#">Project</a></li>            
-        <li><a href="#">Group</a></li>            
-        <li><a href="#">Meeting</a></li>
+        <li class="active"><a href="#" style="color:gold">Home<span class="sr-only"></span></a></li>            
+        <li><a href="#" class="text-muted" style="color:black">Project</a></li>            
+        <li><a href="#" style="color:gold">Group</a></li>            
+        <li><a href="#" style="color:gold">Meeting</a></li>
       </ul><br></br>
 	  <a class="btn btn-default" href='#', role='button'>Log Off</a>
 	 </div>
@@ -42,27 +42,39 @@
 	<div class="col-md-1"></div>	
    <div class="col-lg-3">   
      <h2>Current Project</h2>
-	 <textarea class="form-control" rows="22"></textarea>
-	  <button type="button" class="btn btn-default">Save</button>
+	 <textarea class="form-control" rows="22">Project Gateway
+   -Design for team of up to communicate and work on project goals</textarea>
+	  <button type="button" class="btn btn-default" onclick="save()">Save</button>
 
 	  </div><!--col class-->
 	  <div class="col-md-3">   
      <h2>Goals</h2>
-	 <textarea class="form-control" rows="22"></textarea>
-	  <button type="button" class="btn btn-default">Save</button>
+	 <textarea class="form-control" rows="22">User login
+new user register
+calender page
+project page</textarea>
+	  <button type="button" class="btn btn-default" onclick="save()">Save</button>
 	  </div>
 	<!--<div class="col-md-1"></div>-->
   <div class="col-sm-4 col-md-3 sidebar-offcanvas" id="sidebar">
           <div class="list-group">
 		  <h2>Messages</h2>
-		  <textarea class="form-control" rows="3" cols="1"></textarea>
-	 <button type="button" class="btn btn-default">Save</button><br></br>
-	 <textarea class="form-control" rows="3"></textarea>
-	 <button type="button" class="btn btn-default">Save</button><br></br>
-	 <textarea class="form-control" rows="3"></textarea>
-	 <button tyep="button" class="btn btn-default">Save</button><br></br>
-	 <textarea class="form-control" rows="3"></textarea>
-	 <button type="button" class="btn btn-default">Save</button>
+		  <h3>Danit</h3>
+		  <textarea class="form-control" rows="3" cols="1">Hey how's the interface going
+	-Nick</textarea>
+	 <button type="button" class="btn btn-default" onclick="save()">Save</button><br></br>
+	 <h3>Abel</h3>
+	 <textarea class="form-control" rows="3">I need your help with the login
+	 -Eric</textarea>
+	 <button type="button" class="btn btn-default" onclick="save()">Save</button><br></br>
+	 <h3>Nick</h3>
+	 <textarea class="form-control" rows="3">I need your help with the database
+	 -Eric</textarea>
+	 <button tyep="button" class="btn btn-default" onclick="save()">Save</button><br></br>
+	 <h3>Eric</h3>
+	 <textarea class="form-control" rows="3">How's the login interface
+	 -Danit</textarea>
+	 <button type="button" class="btn btn-default" onclick="save()">Save</button>
 		  </div>
 	</div>	
 </div>
